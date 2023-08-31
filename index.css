@@ -1,9 +1,10 @@
 *{
-    background-color: #404eed;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    
 }
 
 li,a{
@@ -20,11 +21,11 @@ header{
     align-items: center;
     padding: 30px 10%;
     flex-direction: row;
+    background-color: #404eed;
 }
 .logoimg{
     cursor: pointer;
     height: auto;
-
     max-width: 10%;
 }
 
@@ -74,11 +75,54 @@ header{
 
 .conteudoprin{
     display: flex;
+    background-color: #404eed;
     
-    
+}
+
+.imgdir{
+    overflow: hidden;
+
+}
+.imgesq{
+align-content: flex-end;
+overflow: hidden;
+}
+
+
+/* Segunda parte do site*/
+
+
+.faixa-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+
+    background-color: #fff;
+    padding: 110px 0px;
+}
+
+.f2-imagem {
 
 }
 
-.imgesq{
-align-content: flex-end;
+.f2conteudo {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+}
+
+.f2conteudo > h1 {
+    font: 48px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 58px;
+    margin: 0px;
+}
+
+.f2conteudo > p {
+    font-family: 'Roboto', sans-serif;
+    font: 20px  ;
+    color: #6c6e6f;
+    line-height: 34px;
 }
