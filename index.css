@@ -59,25 +59,76 @@ header{
     border-radius: 30px;
   }
 
-  /* Primeira parte */
-  .conteudoprin{
+
+
+.faixa-1{
     display: flex;
     background-color: #404eed;
+    justify-content: space-between;
+}
+
+.f1conteudo{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+
+.f1conteudo > h1{
+    text-align: center;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
     
 }
- .boldtxt{
+.f1conteudo > p{
+    text-align: center;    
     font-family: 'Roboto', sans-serif;
-    color: white;
-   padding-left: 200px;
+    font-size: 20px ;
+    line-height: 34px;
+}
+
+.botoes{
+    display: flex;
+    align-content: center;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.button2{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 20px;
     text-align: center;
- }
- .paratxt{
-    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+
+.button3{
+    background-color: black;
+    border: none;
     color: white;
-    align-self: center;
+    padding: 20px;
     text-align: center;
-    
- }
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+
+}
+
+
+
 
 
 
